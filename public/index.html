@@ -13,37 +13,52 @@
   <div class="container-fluid">
     <div class="row">
         <!-- Sidebar -->
-        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+        <nav id="sidebar" class="sidebar col-md-3 col-lg-2 d-md-block bg-light">
             <div class="sidebar-sticky">
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">
-                            Dashboard <span class="sr-only">(current)</span>
+                            Dashboard Kit<span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            Orders
+                            Overview
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            Products
+                            Tickets
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            Customers
+                            Ideas
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            Reports
+                            Contacts
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            Integrations
+                            Agents
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Articles
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Settings
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Subscription
                         </a>
                     </li>
                 </ul>
@@ -51,16 +66,33 @@
         </nav>
 
         <!-- Page Content -->
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
-            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <h1 class="h2">Dashboard</h1>
+       
                 <!-- Content goes here -->
-            </div>
-        </main>
+            
+                <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Overview</h1>
+                        <div class="btn-toolbar mb-2 mb-md-0">
+                            <div class="btn-group me-2">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+                            </div>
+                            <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                                <span data-feather="calendar"></span>
+                                This week
+                            </button>
+                        </div>
+                    </div>
+    
+                    <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
+                    <!-- <canvas class="my-4 w-100" id="myChart" width="2052" height="866" style="display: block; box-sizing: border-box; height: 433px; width: 1026px;"></canvas> -->
+          
     </div>
   </div>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    
 </body>
 </html>
