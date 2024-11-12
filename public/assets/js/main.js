@@ -4,7 +4,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
             data: {
                 labels: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
                 datasets: [{
-                    data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+                    data: [23, 14, 45, 41, 14, 67, 44],
                     lineTension: 0,
                     backgroundColor: 'transparent',
                     borderColor: '#007bff',
