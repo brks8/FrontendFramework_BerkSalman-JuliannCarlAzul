@@ -40,6 +40,7 @@ Thumbs.db
 # OS generated files #
 ######################
 .DS_Store
+<<<<<<< Updated upstream
 .DS_Store?
 ._*
 .Spotlight-V100
@@ -49,4 +50,10 @@ Thumbs.db
 
 node_modules 
 .vscode
+=======
+
+node_modules 
+.vscode
+.vs
+>>>>>>> Stashed changes
 package-lock.json
